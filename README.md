@@ -22,3 +22,7 @@
 
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+
+##
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mateus-Tieppo&layout=donut-vertical)](https://github.com/Mateus-Tieppo/github-readme-stats)
