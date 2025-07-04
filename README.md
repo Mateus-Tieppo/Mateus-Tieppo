@@ -4,7 +4,7 @@
 
 ##
 📌 FullStack developer  <br>
-📌 Software Engineering student at PUCRS - (3th semester). <br>
+📌 Software Engineering student at PUCRS - (4th semester). <br>
 📌 Always learning and improving! <br>
 
 ### Software Engineering ###
