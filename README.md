@@ -13,16 +13,15 @@
 <a href = "mailto:tieppomateus@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 ##
-### 🚀 Projeto em destaque ###
+### Projetos em destaque
 
-**[Triagem de reclamações com LLM](https://github.com/Mateus-Tieppo/triagem-reclamacoes)**
+**[TriIA](https://github.com/Mateus-Tieppo/triagem-reclamacoes)**
 
-Classifica reclamações reais de e-commerce em português (base pública da Olist) em 7 categorias e compara LLMs que rodam localmente no Ollama com um modelo clássico.
+Classificador de reclamações de e-commerce em português, com regressão logística e revisão humana para casos incertos. O modelo roda no navegador. [Testar a TriIA](https://triia-mateus.vercel.app/triar) · [Resultados](https://github.com/Mateus-Tieppo/triagem-reclamacoes/blob/main/results/resultados.md)
 
-- **Abordagens:** Qwen 2.5 7B e Llama 3.2 3B em zero-shot e few-shot, contra TF-IDF + SVM treinado com rótulos gerados pelo próprio LLM.
-- **Resultado:** o Qwen 2.5 7B zero-shot chegou a 74,9% de F1 macro (intervalo de 95% de 67,8% a 80,7%) com cerca de 1 segundo por mensagem. O SVM ficou em 61,4% com menos de 1 ms.
-- **Avaliação:** conjunto de teste de 300 mensagens, parte rotulada por mim, concordância entre rotuladores (kappa 0,56), intervalos por bootstrap e limitações documentadas.
-- **Engenharia:** pipeline em Python com testes no GitHub Actions, tudo reproduzível com `make tudo` e sem API paga.
+**[Sugestão da Casa](https://github.com/Mateus-Tieppo/sugestao-da-casa)**
+
+Recomendador de delivery com Next.js e FastAPI. Um LLM consulta o cardápio, e o backend aplica filtros de orçamento, prazo e restrições alimentares. [Testar o Sugestão da Casa](https://sugestao-da-casa.vercel.app) · [Avaliação dos modelos](https://github.com/Mateus-Tieppo/sugestao-da-casa#avalia%C3%A7%C3%A3o-de-provedores)
 
 ### Outros projetos ###
 - [tic-tac-toe-ml](https://github.com/Mateus-Tieppo/tic-tac-toe-ml): classificação de estados do jogo da velha com k-NN e MLP (scikit-learn), com relatório técnico. Trabalho em grupo.
